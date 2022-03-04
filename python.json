@@ -1,0 +1,110 @@
+[
+    {
+        "Id": "sha256:85d2ece591c798af8ef07224f9cf2fdfc2f66cf73f39e2eb9c787b87e8de21d9",
+        "RepoTags": [
+            "python:latest"
+        ],
+        "RepoDigests": [
+            "python@sha256:c90e15c86e2ebe71244a2a51bc7f094554422c159ce309a6faadb6debd5a6df0"
+        ],
+        "Parent": "",
+        "Comment": "",
+        "Created": "2022-03-02T03:32:52.63825754Z",
+        "Container": "edad7ee3b6ebf9869a0afed0bdc1f2e160c37bf62246e2fde25053813a343aad",
+        "ContainerConfig": {
+            "Hostname": "edad7ee3b6eb",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=C.UTF-8",
+                "GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D",
+                "PYTHON_VERSION=3.10.2",
+                "PYTHON_PIP_VERSION=21.2.4",
+                "PYTHON_SETUPTOOLS_VERSION=58.1.0",
+                "PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/2caf84b14febcda8077e59e9b8a6ef9a680aa392/public/get-pip.py",
+                "PYTHON_GET_PIP_SHA256=7c5239cea323cadae36083079a5ee6b2b3d56f25762a0c060d2867b89e5e06c5"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "#(nop) ",
+                "CMD [\"python3\"]"
+            ],
+            "Image": "sha256:c63365d7b6f2efe560a9d1a1bedcacb51df0a2caaa70d91d4b5547ce10644733",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {}
+        },
+        "DockerVersion": "20.10.12",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=C.UTF-8",
+                "GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D",
+                "PYTHON_VERSION=3.10.2",
+                "PYTHON_PIP_VERSION=21.2.4",
+                "PYTHON_SETUPTOOLS_VERSION=58.1.0",
+                "PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/2caf84b14febcda8077e59e9b8a6ef9a680aa392/public/get-pip.py",
+                "PYTHON_GET_PIP_SHA256=7c5239cea323cadae36083079a5ee6b2b3d56f25762a0c060d2867b89e5e06c5"
+            ],
+            "Cmd": [
+                "python3"
+            ],
+            "Image": "sha256:c63365d7b6f2efe560a9d1a1bedcacb51df0a2caaa70d91d4b5547ce10644733",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 916951987,
+        "VirtualSize": 916951987,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/snap/docker/common/var-lib-docker/overlay2/384bc49397186a666ce149c11d4b3de7c91e0006cd7264c9bb0e67b544777508/diff:/var/snap/docker/common/var-lib-docker/overlay2/7e7e6fcabdfb993a0149b4de9fbcc7df57fbfda07db577e1345f65346fd93f43/diff:/var/snap/docker/common/var-lib-docker/overlay2/5e9913f5758a8fe737b70ae05aea1837f887dcc0c76c965ed1d959c04b588e2f/diff:/var/snap/docker/common/var-lib-docker/overlay2/ab3d329151fc334c088e4653bf70741b5f9e5be5f8c311cb352969e1b8ee7ce5/diff:/var/snap/docker/common/var-lib-docker/overlay2/7ba483d94f4886d3a01ed789109fa964272bc87bd842c3df57af808c9a49ae4a/diff:/var/snap/docker/common/var-lib-docker/overlay2/9045c03559297f09227469fcbb69408605a743bd5e74a24d8b542debe45dc591/diff:/var/snap/docker/common/var-lib-docker/overlay2/ec41a1df5151da718feb863473f53774210540ec1e5077cf7bfdd78b3f7ca143/diff:/var/snap/docker/common/var-lib-docker/overlay2/95502ef6a35019244e369228ccaa871e12cd8048b116ba18c89e3fad077b143e/diff",
+                "MergedDir": "/var/snap/docker/common/var-lib-docker/overlay2/8cdc4e72b5eb134e37aceeddad4dc96b2025bfb8a269aee4856befeb53a41bc4/merged",
+                "UpperDir": "/var/snap/docker/common/var-lib-docker/overlay2/8cdc4e72b5eb134e37aceeddad4dc96b2025bfb8a269aee4856befeb53a41bc4/diff",
+                "WorkDir": "/var/snap/docker/common/var-lib-docker/overlay2/8cdc4e72b5eb134e37aceeddad4dc96b2025bfb8a269aee4856befeb53a41bc4/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:89fda00479fc0fe3bf2c411d92432001870e9dad42ddd0c53715ab77ac4f2a97",
+                "sha256:26d5108b2cba762ee9b91c30670091458a0c32b02132620b7f844085af596e22",
+                "sha256:48144a6f44ae89c578bd705dba2ebdb2a086b36215affa5659b854308fa22e4b",
+                "sha256:e3f84a8cee1f3e6a38a463251eb05b87a444dec565a7331217c145e9ef4dd192",
+                "sha256:316e3949bffa482c5fe7a0e783b40e50f5f86a679f82d4e75e97995d676bf38f",
+                "sha256:182f3ce3bf2777c5e451dac1e54f265ae65e2e3206a7a00cd01176d01de7cc43",
+                "sha256:e1cbcc210e51e21639b856671c3e387574876225eba02859c748e86c80c03a5f",
+                "sha256:8cce279a774ec5c18f37e2d494414641af0ab3e20e7f53268364651699c95475",
+                "sha256:9f4274c32dc6aea04cb154a88a7f49508a9cb693f3a26575c9771b8c3848c21d"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    }
+]
